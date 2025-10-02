@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Taylor Doan</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/tridoan1998" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/tdoan1998/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:tridoan1998@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Taylor 👋</h2>
+            <p>Angular Front End Developer with experience in building responsive, resuable web application.</p>
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="./images/profile_picture.jpeg" alt="taylor doan headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="./images/angular-logo.png" alt="angular logo">
+          <span>Angular</span>
+        </div>
+        
+        <div class="cell">
+          <img src="./images/git-logo.png" alt="git logo">
+          <span>Git</span>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="./images/profile_pic_2.png">
+        </div>
+
+        <div class="text">
+          <span>
+            <span style="font-weight: bold;">SS&C Technologies</span><br>
+            Front-End Software Engineer <br>
+            San Francisco, CA (Remote)<br>
+            Jul '22 - Sep '25<br>
+            · Participate in a twelve weeks training for new-hires to explore company tech stacks. <br>
+            · Responsible in front-end role maintaining fund administration platform called GoCentral. <br>
+            · Debug minor user interface issue, layout, and bug using Angular.<br>
+            · Build components matching design specification from design and business teams.<br>
+            · Integrate with backend APIs and display data on AG grids.<br>
+            · Participate in code deployment for production release weekly and on-call rotations.<br>
+            · Manage UI changes workflow with Git to ensure zero downtime.<br>
+            · Seek mentorship from experienced developers.<br><br>
+            <span style="font-weight: bold;">Zumper</span><br>
+            Associate DevOps Engineer<br>
+            San Francisco, CA (Onsite)<br>
+            Jan '22 - Apr '22<br>
+            · Configure health check for Traefik load balancer.<br>
+            · Participate in Hackathon to implement APIs updating on Redis instances.<br>
+            · Codify Grafana metrics of services to alert on-call developers on website issues.<br>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          <p>Phone: (408) 644-9160</p>
+          <p>Email: tridoan1998@gmail.com</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+</body>
+</html>
