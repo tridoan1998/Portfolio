@@ -101,10 +101,11 @@ nav .right a span {
   flex: 2;
   display: flex;
   justify-content: right;
+  margin-bottom: 170px;
 }
 
 .hero-section .headshot img {
-  width: 350px;
+  width: 250px;
   border-radius: 50%;
 }
 
@@ -333,4 +334,9 @@ nav .right a span {
   width: 400px;
   height: 250px;
   border-radius: 5%;
+}
+
+.flex-container {
+  display: flex;
+  gap: 30px;
 }
